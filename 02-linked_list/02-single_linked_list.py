@@ -10,6 +10,7 @@
 # remove(item) 删除节点
 # search(item) 查找节点是否存在
 
+
 class Node(object):
     """节点"""
     def __init__(self, elem):
@@ -17,6 +18,7 @@ class Node(object):
         self.elem = elem
         # 指向下一个节点
         self.next = None
+
 
 class SingleLikedList(object):
     """单链表"""
